@@ -19,10 +19,15 @@ public class MathUtilitiesTest {
 
     @Test
     public void isOdd() {
+        int number=5;
+        assertTrue(utilities.isOdd(number));
     }
 
     @Test
     public void square() {
+        int number=10;
+        int actual=utilities.square(number);
+        assertEquals(100,actual);
     }
 
     @Test
